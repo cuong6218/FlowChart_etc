@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>findmaxarray</title>
+</head>
+<body>
+    <script>
+        function findmaxofList(a){
+            let max = a[0];
+            let n = a.length;
+            let i = 1;
+            while (i < n){
+                if (max <a[i]){
+                    max = a[i];
+                }
+                i++;
+            }
+            document.write("max of list number:"+max);
+            document.write("<br>");
+        }
+        findmaxofList([1,2,3,4]);
+    </script>
+</body>
+</html>
